@@ -42,13 +42,114 @@ body {
     width: 100px;
     height: 30px;
     border-radius: 8px;
+    right: 21%;
+    z-index: 2000;
+    padding-top: 8px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    font-family: '华文行楷';
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+#xGdlTasks_SearchBox_time {
+    width: 110px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+    background-color: rgba(0,0,0,0.1);
+    color: rgb(247, 242, 235);
+    font-family: '华文行楷';
+    word-wrap: break-word;
+    float: left;
+}
+
+#xGdlTasks_SearchBox_search {
+    width: 170px;
+    height: 22px;
+    position: relative;
+    float: right;
+}
+
+#xGdlTasks_SearchBox_search_text {
+    width: 140px;
+    height: 22px;
+    border-top-left-radius:  5px;
+    border-bottom-left-radius:  5px;
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+    color: rgb(247, 242, 235);
+    word-wrap: break-word;
+    float: left;
+}
+#xGdlTasks_SearchBox_search_button {
+    width: 25px;
+    height: 22px;
+    border-top-right-radius:  2px;
+    border-bottom-right-radius:  2px;
+    position: relative;
+    background-color: rgb(183, 236, 223);
+    color: rgb(8, 7, 5);
+    font-family: '华文行楷';
+    word-wrap: break-word;
+    float: right;
+    right: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#xGdlTasks_CommandBox {
+
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
     font-family: '华文行楷';
     right: 21%;
+    bottom: 50px;
     z-index: 2000;
     padding-top: 8px;
     background-color: rgba(0,0,0,0.5);
     text-align: center;
     position: fixed;
+    font-family: '华文行楷';
+    font-size: 22px;
+    text-align: center;
+}
+
+#xGdlTasks_CommandBox_Object {
+    width: 480px;
+    height: 25px;
+    position: relative;
+    left: 10px;
+    bottom: 1px;
+}
+
+#xGdlTasks_CommandBox_Object_text {
+    width: 400px;
+    height: 25px;
+    border-top-left-radius:  5px;
+    border-bottom-left-radius:  5px;
+    position: relative;
+    background-color: rgb(252, 253, 252);
+    color: rgb(41, 187, 114);
+    word-wrap: break-word;
+    float: left;
+    font-size: 16px;
+}
+#xGdlTasks_CommandBox_Object_button {
+    width: 75px;
+    height: 25px;
+    border-top-right-radius:  2px;
+    border-bottom-right-radius:  2px;
+    position: relative;
+    background-color: rgb(26, 109, 88);
+    color: rgb(8, 7, 5);
+    font-family: '华文行楷';
+    word-wrap: break-word;
+    float: right;
+    text-align: center;
+    font-size: 18px;
 }
 
 
