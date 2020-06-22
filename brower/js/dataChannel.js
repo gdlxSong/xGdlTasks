@@ -35,8 +35,6 @@ var MessageNameSpace = function(){
     }
 
 
-
-
     this.MessageDetailsHelper = function() {
 
         /*
