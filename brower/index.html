@@ -7,134 +7,120 @@
         <meta charset="utf-8">
 
         <link rel="stylesheet" href="./css/css.css">
+        <script src="./js/util.js"></script>
         <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="./js/dataChannel.js"></script>
     </head>
 
-
-
     <body>
-
 
         <div id="xGdlTasks_Context">
             <div id="xGdlTasks_Title">xGdlTasks</div>
             <div id="xGdlTasks_SearchBox">Constraint</div>
             <div id="xGdlTasks_CommandBox">Command</div>
             <div id="xGdlTasks_List">
-
                 <div class="xGdlTasks_Message" id="00012A">
                     <div class="xGdlTasks_Message_Head">
-
-                        <div class="Message_Head_title">古来圣贤皆寂寞
-                            <span class="Message_Head_tag" style="margin-left: 10px;">紧急</span>
+                
+                        <div class="Message_head_title"><span>古来圣贤皆寂寞</span> 
+                            <span class="Message_head_tag" style="margin-left: 10px;">紧急</span>
                             <span class="Message_Head_tag">重要</span>
                             <span class="Message_Head_id">00012A</span>
                             <span class="Message_Head_expect_start_time">2020.12.02</span>
                             <span class="Message_Head_expect_span_time">23d07h</span>
                         </div>
-                        <div class="xGdlTasks_Message_Body">
-                            <div class="Message_Field_Content">
+                    
+                        
+                            <div class="Message_status">
                                 <div class="Message_Task_status">
                                     <div class="Message_Task_status_child" style="background-color: antiquewhite;" title="截止时间" >2020.06.28</div>
                                     <span class="Message_Task_status_child" style="background-color: rgb(131, 106, 74);" title="剩余时间">20h15min</span>
                                     <span class="Message_Task_status_child"  style="background-color: rgb(187, 175, 159);" title="任务进度">85%</span>
                                 </div>
                             </div>
-                            <div class="Message_Field">详细描述：</div>
-                            <div class="Message_desc">
-                                呼和浩特、西安及郑州社保公积金费用本月预收次月。入职前请提前与前公司确认好社保公积
-    金减员及缴费截止时间等事宜。凡入职时间晚于本地区当月社保公积金增员截止时间的，公司
-    将于次月开始为员工缴纳社保公积金。无参保记录的需按照新参流程申请，请提前准备一张电
-    子版一寸白底彩色证件照（电子版照片要求：该电子照片用于制作社会保障卡，应符合格式要
-    求：本人近期一寸、正面、免冠、彩色、白底、服装与背景的颜色反差要大的电子照片
-                            </div>
-
-                            <div class="Message_Field_Content">
-                                <div class="Message_Field">依赖材料：</div>
-                                <div class="Message_Field_Text">
-                                    <ol>
-                                        <li>身份证复印件（双面）</li>
-                                        <li>体检报告（三甲；心、肝、肺、肾）</li>
-                                        <li>个人信息收集表（在线）</li>
-                                    </ol>
+                            <div class="Message_Field_Desc">
+                                <div class="Message_Field_Desc_Title">详细描述：</div>
+                                <div class="Message_desc_content">
+                                    呼和浩特、西安及郑州社保公积金费用本月预收次月。入职前请提前与前公司确认好社保公积
+                    金减员及缴费截止时间等事宜。凡入职时间晚于本地区当月社保公积金增员截止时间的，公司
+                    将于次月开始为员工缴纳社保公积金。无参保记录的需按照新参流程申请，请提前准备一张电
+                    子版一寸白底彩色证件照（电子版照片要求：该电子照片用于制作社会保障卡，应符合格式要
+                    求：本人近期一寸、正面、免冠、彩色、白底、服装与背景的颜色反差要大的电子照片
                                 </div>
                             </div>
-                            <div class="Message_Field_Content">
-                                <div class="Message_Field">依赖人物：</div>
-                                <div class="Message_Field_Text">
-                                    <ol>
-                                        <li>王二，通信主任，电话：15882927354， 微信：痕迹</li>
-                                        <li>李四，电话：18755910758</li>
-                                    </ol>
-                                </div>
-                            </div>
-                            <div class="Message_Field_Content">
-                                <div class="Message_Field">执行流程：</div>
-                                <div class="Message_Field_Text">
-                                    <ul>
-                                        <li>首先准备身份证复印件</li>
-                                        <li>去医院体检，获取体检报告，需要排号</li>
-                                        <li>填写个人信息登记表</li>
-                                        <li>在2020.6.28-18:25之前将材料递交给鱼薇</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="Message_Field_Content">
-                                <div class="Message_Field">进度跟踪：</div>
-                                <div class="Message_Field_Text">
-                                    <ul>
-                                        <li>首先准备身份证复印件</li>
-                                        <li>去医院体检，获取体检报告，需要排号</li>
-                                        <li>填写个人信息登记表</li>
-                                        <li>在2020.6.28-18:25之前将材料递交给鱼薇</li>
-                                    </ul>
-                                </div>
-                                <div class="Message_Add_Content">
-                                    <textarea class="Message_Add_Content_WriteBox"></textarea>
-                                    <button class="Message_Add_Content_Submit">增加记录</button>
-                                </div>
-                            </div>
-                            
-                            <div class="Message_Field_Content">
-                                <div class="Message_Field">问题记录：</div>
-                                <div class="Message_Add_Content">
-                                    <div style="text-indent: 2em; font-family: '华文行楷';">开始你的问题记录叭~~~</div>
-                                    <textarea class="Message_Add_Content_WriteBox"></textarea>
-                                    <button class="Message_Add_Content_Submit">增加记录</button>
-                                </div>
-                            </div>
-                            
-                            <div class="Message_button">详情点击</div>
                         </div>
-
-                    </div>
-                </div>
-                <div class="xGdlTasks_Message">
-                    <div class="xGdlTasks_Message_Head">
-
-                        <div class="Message_Head_title">古来圣贤皆寂寞
-                            <span class="Message_Head_tag" style="margin-left: 10px;">紧急</span>
-                            <span class="Message_Head_tag">紧急</span>
-                            <span class="Message_Head_id">00012A</span>
-                            <span class="Message_Head_expect_start_time">2020.12.02</span>
-                            <span class="Message_Head_expect_span_time">23d07h</span>
-                        </div>
-                        <div class="xGdlTasks_Message_Body">
-                            <div class="Message_Field">简单概述：</div>
-                            <div class="Message_desc">
-                                呼和浩特、西安及郑州社保公积金费用本月预收次月。入职前请提前与前公司确认好社保公积
-    金减员及缴费截止时间等事宜。凡入职时间晚于本地区当月社保公积金增员截止时间的，公司
-    将于次月开始为员工缴纳社保公积金。无参保记录的需按照新参流程申请，请提前准备一张电
-    子版一寸白底彩色证件照（电子版照片要求：该电子照片用于制作社会保障卡，应符合格式要
-    求：本人近期一寸、正面、免冠、彩色、白底、服装与背景的颜色反差要大的电子照片
+                            <div class="xGdlTasks_Message_Body"></div>
+                            <div class="Message_Fields_List">
+                                <!-- 依赖材料 -->
+                                <div class="Message_Field_Content" name="dependMaterial">
+                                    <div class="Message_Field">依赖材料：</div>
+                                    <div class="Message_Field_Text">
+                                        <ol>
+                                            <li>身份证复印件（双面）</li>
+                                            <li>体检报告（三甲；心、肝、肺、肾）</li>
+                                            <li>个人信息收集表（在线）</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- 依赖人物 -->
+                                <div class="Message_Field_Content">
+                                    <div class="Message_Field">依赖人物：</div>
+                                    <div class="Message_Field_Text">
+                                        <ol>
+                                            <li>王二，通信主任，电话：15882927354， 微信：痕迹</li>
+                                            <li>李四，电话：18755910758</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- 执行流程 -->
+                                <div class="Message_Field_Content">
+                                    <div class="Message_Field">执行流程：</div>
+                                    <div class="Message_Field_Text">
+                                        <ul>
+                                            <li>首先准备身份证复印件</li>
+                                            <li>去医院体检，获取体检报告，需要排号</li>
+                                            <li>填写个人信息登记表</li>
+                                            <li>在2020.6.28-18:25之前将材料递交给鱼薇</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- 流程跟踪 -->
+                                <div class="Message_Field_Content">
+                                    <div class="Message_Field">进度跟踪：</div>
+                                    <div class="Message_Field_Text">
+                                        <ul>
+                                            <li>首先准备身份证复印件</li>
+                                            <li>去医院体检，获取体检报告，需要排号</li>
+                                            <li>填写个人信息登记表</li>
+                                            <li>在2020.6.28-18:25之前将材料递交给鱼薇</li>
+                                        </ul>
+                                    </div>
+                                    <div class="Message_Add_Content">
+                                        <textarea class="Message_Add_Content_WriteBox"></textarea>
+                                        <button class="Message_Add_Content_Submit">增加记录</button>
+                                    </div>
+                                </div>
+                                <!-- 问题记录 -->
+                                <div class="Message_Field_Content">
+                                    <div class="Message_Field">问题记录：</div>
+                                    <div class="Message_Field_Text">
+                                        <ul>
+                                            <li>你这和和有问题</li>
+                                        </ul>
+                                    </div>
+                                    <div class="Message_Add_Content">
+                                        <div style="text-indent: 2em; font-family: '华文行楷';">开始你的问题记录叭~~~</div>
+                                        <textarea class="Message_Add_Content_WriteBox"></textarea>
+                                        <button class="Message_Add_Content_Submit">增加记录</button>
+                                    </div>
+                                </div>
+                            </div>
                             </div>
                             <div class="Message_button">详情点击</div>
-                        </div>
-
+                        
                     </div>
-                </div>
             </div>
         </div>
-
 
         <!-- ---------------一些模板对象，懒得用createElemet创建，就直接使用html来解析dom了，不能删除，会自动删除 -->
         <div id="templateObject">

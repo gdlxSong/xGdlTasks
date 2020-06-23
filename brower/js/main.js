@@ -1,13 +1,7 @@
 
 
 //---------------------------------------- Object Event---------
-{/* <div id="seachBoxObject">
-                    <input type="date" id="xGdlTasks_SearchBox_time">
-                    <div id="xGdlTasks_SearchBox_search">
-                        <input type="text" id="xGdlTasks_SearchBox_search_text">
-                        <button id="xGdlTasks_SearchBox_search_button">Q</button>
-                    </div>
-                </div> */}
+
 
 function initEvents() {
 
@@ -92,9 +86,9 @@ function initEvents() {
             click(this);
         }
     }
-
-
 }
 
 
 initEvents();
+
+var helper = new MessageDetailsHelper();
